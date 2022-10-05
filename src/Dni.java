@@ -12,7 +12,7 @@ public class Dni {
             System.out.println("Enter your DNI number to know your letter");
             number = input.nextInt();
 
-            System.out.println(LETTERS[number%23]);
+            System.out.println(LETTERS[number % 23]);
 
 
         }
